@@ -13,9 +13,9 @@ load_dotenv()
 def main():
     # Validate environment variables
     required_vars = {
-        'AGENT_ID': "Eztqho9TF05j3tDxMlEF",
-        'USER_ID': "sarvesh",
-        'MEM0_API_KEY': "sk_ee1fa4f947dbff35419831d38bb347dea077f6f1155d6f37",
+        'AGENT_ID': os.environ.get('AGENT_ID'),
+        'USER_ID': os.environ.get('USER_ID'),
+        'MEM0_API_KEY': os.environ.get('MEM0_API_KEY'),
     }
     
     for name, value in required_vars.items():
