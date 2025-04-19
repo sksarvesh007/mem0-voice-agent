@@ -1,21 +1,3 @@
-"""
-Car Sales Voice Agent - AI-powered cold calling system
-
-This module implements a voice agent for car sales cold calling using LiveKit's agent framework.
-The agent engages with potential customers to schedule test drive appointments using natural language
-processing, voice recognition and voice synthesis. The system maintains appointment slots and 
-bookings using CSV files and leverages memory for contextual conversations.
-
-Dependencies:
-- LiveKit SDK for audio communication
-- OpenAI for language model and speech synthesis
-- Deepgram for speech-to-text
-- Silero for Voice Activity Detection
-- Mem0 for memory storage and retrieval
-
-Author: Swift Motors
-Date: 2023
-"""
 
 import asyncio
 import logging
